@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/constellations"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <CheckBox
+        android:id="@+id/checkbox_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS" />
+
+    <CheckBox
+        android:id="@+id/checkbox_glonass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glonass" />
+
+    <CheckBox
+        android:id="@+id/checkbox_beidou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beidou" />
+
+    <CheckBox
+        android:id="@+id/checkbox_galileo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galileo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/listDivider" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_not_in_fix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_not_in_fix" />
+
+
+</LinearLayout>

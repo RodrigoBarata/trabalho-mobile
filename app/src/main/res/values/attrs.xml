@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="SkyView">
+        <attr name="horizonColor" format="color" />
+    </declare-styleable>
+</resources>

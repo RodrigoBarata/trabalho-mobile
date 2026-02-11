@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rastreador de Satélites</string>
+
+    <!-- SkyView -->
+    <string name="visible_satellites">Visíveis: %d</string>
+    <string name="in_use_satellites">Em Uso: %d</string>
+    <string name="north">N</string>
+    <string name="south">S</string>
+    <string name="east">L</string>
+    <string name="west">O</string>
+
+    <!-- Dialog Settings -->
+    <string name="dialog_title">Configurações de Exibição</string>
+    <string name="constellations">Constelações</string>
+    <string name="show_not_in_fix">Mostrar satélites não usados no Fix</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Permissions -->
+    <string name="location_permission_required">A permissão de localização é necessária para ver os dados dos satélites.</string>
+</resources>
